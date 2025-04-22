@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="mydiscription">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Our Products - MediCure</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://stackpath.bootstrapcdn.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="your-font-file.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+<body>
+  
+    <nav class="navbar">
+        <div class="logo">
+            <picture>
+                <source srcset="images/Screenshot 2025-02-23 174433.webp" type="image/webp">
+                <img 
+                    src="images/Screenshot 2025-02-23 174433.png" 
+                    alt="MediCure Logo" 
+                    class="logo-img"
+                    width="40"
+                    height="40">
+            </picture>
+            <div class="logo-text">
+                <span class="logo-black">Medi</span><span class="logo-blue">Cure</span>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="indexx1.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+            <li><a href="services.html"><i class="fas fa-stethoscope"></i> Speciality Care</a></li>
+            <li><a href="products.html"><i class="fas fa-capsules"></i> Our Products</a></li>
+            <li><a href="outreach.html"><i class="fas fa-hands-helping"></i> Outreach</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            
+            <li><a href="signup.html" class="auth-btn"><i class="fas fa-user-plus"></i> Sign Up</a></li>
+            <li><a href="login.html" class="auth-btn"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <header class="about-header">
+        <h1>About MediCure</h1>
+        <p>Your trusted healthcare partner since 2010</p>
+    </header>
+
+    <!-- About Content -->
+    <section class="about-content">
+        <div class="mission-content">
+            <h2>Our Mission</h2>
+            <p>At MediCure, we're committed to providing accessible, high-quality healthcare solutions to communities worldwide. Our focus is on delivering authentic medicines and exceptional customer service.</p>
+            <p>With over a decade of experience, we've built a reputation for reliability, transparency, and customer care. Our team of healthcare professionals ensures that every product and service meets the highest standards of quality.</p>
+        </div>
+        <div class="team-photos">
+            
+            <img src="images/Teams.jpg" alt="Medical Team" class="img-fluid">
+            
+            
+        </div>
+    </section>
+
+   
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- Company Info Column -->
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <picture>
+                        <source srcset="images/Screenshot 2025-02-23 174433.webp" type="image/webp">
+                        <img 
+                            src="images/Screenshot 2025-02-23 174433.png" 
+                            alt="MediCure Logo" 
+                            width="40"
+                            height="40">
+                    </picture>
+                    <h3>About MediCure</h3>
+                </div>
+                <p>Your trusted healthcare partner since 2010. We're committed to providing accessible, high-quality healthcare solutions to communities worldwide.</p>
+                <div class="footer-contact">
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> contact@medicure.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Healthcare Ave, Medical City</p>
+                </div>
+            </div>
+    
+            <!-- Quick Links Column -->
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <div class="footer-links">
+                    <div class="links-group">
+                        <a href="indexx1.html"><i class="fas fa-chevron-right"></i> Home</a>
+                        <a href="about.html"><i class="fas fa-chevron-right"></i> About</a>
+                        <a href="services.html"><i class="fas fa-chevron-right"></i> Services</a>
+                    </div>
+                    <div class="links-group">
+                        <a href="outreach.html"><i class="fas fa-chevron-right"></i> Outreach</a>
+                        <a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a>
+                        <a href="products.html"><i class="fas fa-chevron-right"></i> Products</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              </div>
+              
+              
+            <div class="copyright">
+                <p>&copy; 2024 MediCure. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="cart.js"></script>
+
+    <!-- JavaScript (same as indexx1.html) -->
+    <script>
+        // Sticky Navbar
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.style.background = '#ffffff';
+                navbar.style.padding = '10px 5%';
+            } else {
+                navbar.style.background = '#ffffff';
+                navbar.style.padding = '15px 5%';
+            }
+        });
+
+        // Mobile Menu Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        
+        hamburger.addEventListener('click', function() {
+            navLinks.classList.toggle('active');
+            this.querySelector('i').classList.toggle('fa-bars');
+            this.querySelector('i').classList.toggle('fa-times');
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!event.target.closest('.navbar')) {
+                navLinks.classList.remove('active');
+                hamburger.querySelector('i').classList.remove('fa-times');
+                hamburger.querySelector('i').classList.add('fa-bars');
+            }
+        });
+    </script>
+</body>
+</html>

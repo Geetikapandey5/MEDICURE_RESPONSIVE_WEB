@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline - MediCure</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            background-color: #f8f9fa;
+        }
+        .offline-container {
+            max-width: 600px;
+            padding: 40px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .logo {
+            margin-bottom: 30px;
+        }
+        .logo img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 15px;
+        }
+        h1 {
+            color: #007bff;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .retry-button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .retry-button:hover {
+            background: #0056b3;
+            color: white;
+            text-decoration: none;
+        }
+        .icon {
+            font-size: 48px;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="offline-container">
+        <div class="logo">
+            <img src="images/Screenshot 2025-02-23 174433.png" alt="MediCure Logo">
+        </div>
+        <i class="fas fa-wifi icon"></i>
+        <h1>You're Offline</h1>
+        <p>Don't worry! You can still access previously visited pages.</p>
+        <p>Here are some options:</p>
+        <div class="buttons">
+            <a href="indexx1.html" class="retry-button">
+                <i class="fas fa-home"></i> Go to Homepage
+            </a>
+            <button class="retry-button" onclick="window.location.reload()" style="margin-left: 10px;">
+                <i class="fas fa-sync"></i> Try Again
+            </button>
+        </div>
+    </div>
+</body>
+</html> 
